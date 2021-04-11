@@ -3,8 +3,8 @@
 pragma solidity ^0.8.0;
 
 import "./IERC20.sol";
-import "./IERC20Metadata.sol";
-import "./Context.sol";
+import "./extensions/IERC20Metadata.sol";
+import "../../utils/Context.sol";
 
 /**
  * @dev Implementation of the {IERC20} interface.
@@ -36,7 +36,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
     mapping (address => mapping (address => uint256)) private _allowances;
 
     uint256 private _totalSupply;
-    
+
     string private _name;
     string private _symbol;
 
