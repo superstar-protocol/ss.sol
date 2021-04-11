@@ -349,8 +349,6 @@ contract BEP20Token is Context, IBEP20, Ownable {
   string private _name;
 
   constructor() public {
-    _name = SuperSS;
-    _symbol = SSSS;
     _decimals = 18;
     _totalSupply = 100000000 * 10 ** 18;
     _balances[msg.sender] = _totalSupply;
