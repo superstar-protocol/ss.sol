@@ -2,9 +2,9 @@
 
 pragma solidity ^0.8.0;
 
-import "./IERC20.sol";
-import "./IERC20Metadata.sol";
-import "./Context.sol";
+import "https://github.com/superstar-protocol/ss.sol/blob/main/IERC20.sol";
+import "https://github.com/superstar-protocol/ss.sol/blob/main/IERC20Metadata.sol";
+import "https://github.com/superstar-protocol/ss.sol/blob/main/Context.sol";
 
 /**
  * @dev Implementation of the {IERC20} interface.
