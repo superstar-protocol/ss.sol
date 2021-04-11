@@ -37,9 +37,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 
     uint256 private _totalSupply;
     
-    _totalSupply = 100000000 * 10 ** 18;
-    _balances[msg.sender] = _totalSupply;
-
     string private _name;
     string private _symbol;
 
