@@ -1,0 +1,2 @@
+# ss.sol
+ss.coin
