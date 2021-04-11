@@ -51,7 +51,7 @@ Latest commit 152e907 on Mar 4
    
  */
 
-pragma solidity ^0.5.16;
+pragma solidity ^0.5.17;
 // SPDX-License-Identifier: Unlicensed
 interface IERC20 {
 
